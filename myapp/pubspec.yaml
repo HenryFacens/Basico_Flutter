@@ -1,0 +1,35 @@
+name: myapp
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-290.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # LIBs
+
+  # animations: ^1.1.2
+  cupertino_icons: ^1.0.2
+  fl_chart: ^0.61.0
+  google_nav_bar: ^5.0.6
+  lottie: ^2.2.0
+  badges: ^3.0.2
+  line_icons: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
